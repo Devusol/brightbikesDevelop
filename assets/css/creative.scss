@@ -6736,18 +6736,27 @@ button.bg-success:focus {
 }
 
 .bg-info {
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/backgrounds/colors.jpg");
     background-position: center;
-    background-image: url("/assets/img/backgrounds/colors.png") !important;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
 }
 
 #services{
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/backgrounds/yellowLight.jpg");
     background-position: center;
-    background-image: url("/assets/img/backgrounds/blueLight.png") !important;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
 }
 
 #contacts{
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("/assets/img/backgrounds/blueLight.jpg");
     background-position: center;
-    background-image: url("/assets/img/backgrounds/yellowLight.png") !important;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
 }
 
 a.bg-info:hover,
