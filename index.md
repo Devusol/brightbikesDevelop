@@ -1,10 +1,9 @@
 ---
 layout: home
 header:
-  title: Your Favorite Source of Free Bootstrap Themes
+  title: BRiGHT BiKES
   text: >
-    Start Bootstrap can help you build better websites using the Bootstrap
-    framework! Just download a theme and start customizing, no strings attached!
+    LIGHT UP YOUR COMMUNITY
   action: # action button is optional
     label: Find Out More
     url: '#about'
@@ -14,8 +13,8 @@ sections:
   - type: call-to-action.html
     section_id: about
     background_style: bg-primary
-    title: We've got what you need!
-    text: Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!
+    title: Light up your community!
+    text: BrightBikes is a program of The Maker Effect Foundation, a maker-focused 501(c)(3) nonprofit in Orlando, Florida. Check out our tutorials to add LEDs to your bike and get out to share your colors with your neighborhood, or join us for community light parades!
     actions:
       - title: Get Started!
         url: '#page-top'
