@@ -2498,18 +2498,6 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-<<<<<<< HEAD
-    color: #fff;
-    background-color: #ff9100;
-    border-color: #ff9100;
-}
-
-.btn-primary:hover {
-    color: #fff;
-    background-color: #ff9100;
-    border-color: #ff9100;
-    box-shadow: 0 0 50px #ff9100;
-=======
     color: white;
     background-color: var(--orange);
     border-color: var(--orange);
@@ -2519,7 +2507,7 @@ fieldset:disabled a.btn {
     color: white;
     background-color: var(--yellow);
     border-color: var(--orange);
->>>>>>> cssMake
+    box-shadow: 0 0 50px #ff9100;
 }
 
 .btn-primary:focus,
@@ -2757,28 +2745,16 @@ fieldset:disabled a.btn {
 }
 
 .btn-light {
-<<<<<<< HEAD
-    color: #ffffff;
-    background-color: #008cff;
-    border-color: #008cff;
-}
-
-.btn-light:hover {
-    color: #ffffff;
-    background-color: #008cff;
-    border-color: #008cff;
-    box-shadow: 0 0 50px #008cff;
-=======
     color: white;
-    background-color: white;
-    border-color: black;
+    background-color: var(--blue);
+    border-color: var(--blue);
 }
 
 .btn-light:hover {
     color: white;
-    background-color: white;
-    border-color: black;
->>>>>>> cssMake
+    background-color: var(--blue);
+    border-color: var(--blue);
+    box-shadow: 0 0 50px var(--blue);
 }
 
 .btn-light:focus,
@@ -2811,28 +2787,16 @@ fieldset:disabled a.btn {
 }
 
 .btn-dark {
-<<<<<<< HEAD
-    color: #343a40;
-    background-color: #fff200;
-    border-color: #fff200;
+    color: black;
+    background-color: var(--yellow);
+    border-color: var(--yellow);
 }
 
 .btn-dark:hover {
-    color: #343a40;
-    background-color: #fff200;
-    border-color: #fff200;
-    box-shadow: 0 0 50px #fff200;
-=======
-    color: white;
-    background-color: black;
-    border-color: black;
-}
-
-.btn-dark:hover {
-    color: white;
-    background-color: black;
-    border-color: black;
->>>>>>> cssMake
+    color: black;
+    background-color: var(--yellow);
+    border-color: var(--yellow);
+    box-shadow: 0 0 50px var(--yellow);
 }
 
 .btn-dark:focus,
