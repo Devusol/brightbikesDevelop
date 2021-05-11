@@ -23,26 +23,20 @@ sections:
   - type: services.html
     section_id: services
     #background_style: bg-info
-    title: At Your Service
+    title: Join Us!
     services:
-      - title: Sturdy Templates
-        text: Our templates are updated regularly so they don't break.
+      - title: Maker Focused Community
+        text: BrightBikes is a program of The Maker Effect Foundation, a maker-focused 501(c)(3) nonprofit in Orlando, Florida.
         icon: fa-gem text-info
         url: https://startbootstrap.com/
-      - title: Ready to Ship
-        text: You can use this theme as is, or you can make changes!
+      - title: Project Funding
+        text: This project is funded in part by Orange County Government through the Arts & Cultural Affairs Program.
         icon: fa-paper-plane
-      - title: Up to Date
-        text: We update dependencies to keep things fresh.
+      - title: Tutorials
+        text: Looking to build your own and don't know where to start? Watch some of our tutorials.
         icon: fa-laptop-code
-      - title: Made with Love
-        text: You have to make your websites with love these days!
-        icon: fa-heart
-      - title: Other 1
-        text: Some not-so long text here.
-        icon: fa-heart
-      - title: Other 2
-        text: Some not-so long text here.
+      - title: Explore and Share
+        text: Find different places to ride and be a part of a growing community.
         icon: fa-heart
 
   - type: portfolio.html
@@ -88,33 +82,26 @@ sections:
 
   - type: members.html
     section_id: members
-    title: Our Crew!
+    title: Partners and Affiliates
     background_style: bg-info text-white
     members:
-      - title: Christina M. Aponte
-        text: Singer and Songwriter
-        image: assets/img/members/person1.jpg
-        url: '#'
-      - title: Gary D. Stevens
-        text: Bass guitar.
-        image: assets/img/members/person2.jpg
-        url: '#'
-      - title: Devon J. Fletcher
-        text: Lead guitar.
-        image: assets/img/members/person3.jpg
-        url: '#'
-      - title: Todd E. Anderson
-        text: Drums, percussion.
-        image: assets/img/members/person5.jpg
-        url: '#'
-      - title: Daniel T. Riley
-        text: Musician, songwriter, producer.
-        image: assets/img/members/person6.jpg
-        url: '#'
-      - title: Ella P. Walter
-        text: PR.
-        image: assets/img/members/person7.jpg
-        url: '#'
+      - title: Maker Effects Foundation
+        text: The Maker Effect is the sum of the personal growth, professional success, community development, and continuous innovation that results when makers learn, educate, share, and create together. 
+        image: assets/img/logos/makerEffectFoundationLogo.png
+        url: 'http://www.themakereffect.org/'
+      - title: Maker Faire Orlando
+        text: Maker Faire is the Greatest Show (and Tell) on Earth—a family-friendly festival of invention, creativity and resourcefulness, and a celebration of the Maker movement.
+        image: assets/img/logos/makerFaireOrlandoLogo.png
+        url: 'https://www.makerfaireorlando.com/'
+      - title: Maker FX
+        text: MakerFX Makerspace is a community-driven makerspace with 3,500 sq. ft. of classroom, workshop and community space in South Orlando.
+        image: assets/img/logos/makerFXLogo.png
+        url: 'http://makerfx.org/'
+      - title: Robot Ruckus
+        text: Your favorite robots, destroying each other, for your amusement. 
+        image: assets/img/logos/robotRuckusRoundLogo.png
+        url: 'https://robotruckus.org/'
+
 
   - type: timeline.html
     section_id: timeline
