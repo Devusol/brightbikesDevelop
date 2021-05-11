@@ -10221,6 +10221,9 @@ hr.light {
 
 #myVideo {
     position: fixed;
+    z-index:-1; /* Causes the video to sit behind your heading */
+    object-position:center; /* Causes video to be centred against the header */
+    object-fit:cover; /* Causes video to cover/stretch to the header */
     right: 0;
     bottom: 0;
     min-width: 100%; 
