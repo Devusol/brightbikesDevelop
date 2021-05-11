@@ -14,10 +14,10 @@ sections:
     section_id: about
     background_style: bg-primary
     title: Light up your community!
-    text: BrightBikes is a program of The Maker Effect Foundation, a maker-focused 501(c)(3) nonprofit in Orlando, Florida. Check out our tutorials to add LEDs to your bike and get out to share your colors with your neighborhood, or join us for community light parades!
+    text: We are building a fleet of art bikes with more than 1,600 LEDs each! These bikes will display patterns created by local interactive artists and you'll see the bikes popping up at lots of iconic Orlando locations in the coming months. Send us a note to get involved! 
     actions:
-      - title: Get Started!
-        url: '#page-top'
+      - title: Get involved!
+        url: mailto:makers@makerfaireorlando.com
         class: btn-light
 
   - type: services.html
@@ -28,7 +28,7 @@ sections:
       - title: Sturdy Templates
         text: Our templates are updated regularly so they don't break.
         icon: fa-gem text-info
-        url: https://startbootstrap.com/
+        url:
       - title: Ready to Ship
         text: You can use this theme as is, or you can make changes!
         icon: fa-paper-plane
@@ -50,31 +50,31 @@ sections:
     #section_id: portfolio
     #background_style: bg-dark
     projects:
-      - title: Project 1
-        text: This is a very short project description.
+      - title: Downtown Orlando
+        text: Lake Eola Park
         # the images are located in:
         # img/portfolio/fullsize
         # img/portfolio/thumbnails
         icon: 1.jpg
         url: '#'
-      - title: Project 2
-        text: This is a very short project description.
+      - title: Downtown Orlando
+        text: Wall Street
         icon: 2.jpg
         url: '#'
-      - title: Project 3
-        text: This is a very short project description.
+      - title: Downtown Orlando
+        text: Lake Eola Park
         icon: 3.jpg
         url: '#'
-      - title: Project 4
-        text: This is a very short project description.
+      - title: Downtown Orlando
+        text: Lake Eola Park
         icon: 4.jpg
         url: '#'
-      - title: Project 5
-        text: This is a very short project description.
+      - title: Downtown Orlando
+        text: Wall Street
         icon: 5.jpg
         url: '#'
-      - title: Project 6
-        text: This is a very short project description.
+      - title: Downtown Orlando
+        text: Wall Street
         icon: 6.jpg
         url: '#'
 
@@ -141,8 +141,7 @@ sections:
     section_id: contacts
     title: Let's Get In Touch!
     text: >-
-      Ready to start your next project with us? Give us a call or send us an email
-      and we will get back to you as soon as possible!
+      Light Up Your Community! Check out our tutorials to add LEDs to your bike and get out to share your colors with your neighborhood, or join us for community light parades! 
     actions:
     - title: E-Mail
       icon: fa-envelope
