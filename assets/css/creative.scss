@@ -4232,6 +4232,12 @@ input[type=button].btn-block {
     }
 }
 
+
+#bbLogo{
+    height: 27px;
+    width: auto;
+}
+
 .nav {
     display: flex;
     flex-wrap: wrap;
@@ -10342,8 +10348,10 @@ header.masthead h1 {
 
 .fa-envelope{
   color: var(--orange) !important;
+  cursor: pointer;
 }
 
 .fa-facebook{
   color: var(--blue) !important;
+  cursor: pointer;
 }
