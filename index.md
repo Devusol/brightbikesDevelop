@@ -84,7 +84,7 @@ sections:
     actions:
       - title: Download Now!
         url: https://startbootstrap.com/themes/creative/
-        class: btn-light
+        class: btn-dark
 
   - type: members.html
     section_id: members
