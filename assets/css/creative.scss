@@ -6760,7 +6760,7 @@ button.bg-success:focus {
 }
 
 #contacts{
-    background: radial-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("/assets/img/backgrounds/blueLight.jpg");
+    background: radial-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../img/backgrounds/blueLight.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -10327,4 +10327,32 @@ header.masthead h1 {
 
 .text-white-75 {
     color: rgba(255, 255, 255, 0.75);
+}
+
+#bikeSVG {
+    
+}
+
+#bikeSVG{
+    width: 100px;
+    position: relative;
+    animation: mymove 5s ease-in-out ;
+}
+
+@keyframes mymove {
+	0% {left: 0px;}
+    50% {left: 50%; transform: scaleX(1);}
+    51%{ -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+    }
+	100% {left: 100%;}
+}
+@keyframes mymove2 {
+	0% {left: 50%;}
+	100% {left: 100%;}
+}
+@keyframes flipGuy {
+	     to {
+           
+        }   
 }
