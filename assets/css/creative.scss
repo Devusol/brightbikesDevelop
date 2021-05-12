@@ -10354,6 +10354,10 @@ transform-box: fill-box;
     transform-box: fill-box; 
     }
 
+#bikeDiv{
+    bottom: -131px;
+    position: relative;
+}
 @keyframes wheel{
 	from{transform: rotateZ(0deg);
     }
