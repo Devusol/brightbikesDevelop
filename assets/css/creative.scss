@@ -10329,22 +10329,42 @@ header.masthead h1 {
     color: rgba(255, 255, 255, 0.75);
 }
 
-#bikeSVG {
-    
-}
 
 #bikeSVG{
-    width: 100px;
+    width: 300px;
     position: relative;
-    animation: mymove 5s ease-in-out ;
+   // animation: mymove 15s ease-in-out infinite;
 }
 
-@keyframes mymove {
-	0% {left: 0px;}
-    50% {left: 50%; transform: scaleX(1);}
-    51%{ -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
+#wholeBike{
+    width: 300px;
+    position: relative;
+    animation: mymove 20s ease-in-out infinite;
+}
+
+#frontSpokes{
+animation:wheel 2s infinite linear;
+transform-origin: center;
+transform-box: fill-box; 
+}
+
+#backSpokes{
+    animation:wheel 2s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box; 
     }
+
+@keyframes wheel{
+	from{transform: rotateZ(0deg);
+    }
+    to{transform: rotateZ(360deg);
+    }
+}
+
+
+@keyframes mymove {
+	0% {left: -30%;}
+    50% {left: 50%;}   
 	100% {left: 100%;}
 }
 @keyframes mymove2 {
@@ -10353,6 +10373,8 @@ header.masthead h1 {
 }
 @keyframes flipGuy {
 	     to {
-           
-        }   
+             -webkit-transform: scaleX(-1);
+                transform: scaleX(-1);
+            }
+        
 }
