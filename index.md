@@ -102,25 +102,25 @@ sections:
         url: 'https://robotruckus.org/'
 
 
-  - type: timeline.html
-    section_id: timeline
-    title: How-to guides
-    background_style: bg-dark text-primary
-    last_image: assets/img/timeline-end.png
-    actions:
-      - image: assets/img/portfolio/thumbnails/1.jpg
-        url: https://youtube.com/embed/_E--rsD7uEI
-        title: >+
-          **BrightBikes Review: Spokelit Disco & Bright Spokes lights**
-        text: >-
-          Easy Bright Light Kits
-          Quick setup for Bright Bike events and lighting your bike for evening and night fun. The two kits covered in this video are the Spokelit Disco and Bright Spokes lights.These Kits are available on Amazon.
-      - image: assets/img/portfolio/thumbnails/2.jpg
-        url: https://youtube.com/embed/R5WS32tsVmU
-        title: >+
-          BrightBikes @ Retro City Cycles 9th Annual Christmas Light Ride
-        text: >-
-          We took the prototype BrightBikes Pixel 1600 and the BrightBikes Neon to the Retro City Cycles 9th Annual Christmas Light Ride. The other riders and spectators loved the bikes and we had non-stop positive comments. We also had some great conversations about how the bikes were built and the BrightBikes program!
+#  - type: timeline.html
+#    section_id: timeline
+#    title: Media
+#    background_style: bg-dark text-primary
+#    last_image: assets/img/timeline-end.png
+#    actions:
+#      - image: assets/img/portfolio/thumbnails/1.jpg
+#        url: https://youtube.com/embed/_E--rsD7uEI
+#        title: >+
+#          **BrightBikes Review: Spokelit Disco & Bright Spokes lights**
+#        text: >-
+#          Easy Bright Light Kits
+#          Quick setup for Bright Bike events and lighting your bike for evening and night fun. The two kits covered in this video are the Spokelit Disco and Bright Spokes lights.These Kits are available on Amazon.
+#      - image: assets/img/portfolio/thumbnails/2.jpg
+#        url: https://youtube.com/embed/R5WS32tsVmU
+#        title: >+
+#          BrightBikes @ Retro City Cycles 9th Annual Christmas Light Ride
+#        text: >-
+#          We took the prototype BrightBikes Pixel 1600 and the BrightBikes Neon to the Retro City Cycles 9th Annual Christmas Light Ride. The other riders and spectators loved the bikes and we had non-stop positive #comments. We also had some great conversations about how the bikes were built and the BrightBikes program!
 
   - type: contact.html
     section_id: contacts
