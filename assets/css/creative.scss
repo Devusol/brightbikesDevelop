@@ -79,7 +79,13 @@ section {
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
-    margin-top: 1%;
+}
+
+.blackLineDiv{
+    border:black;
+    border-top-width:90vh;
+    background: black;
+    padding:10px;
 }
 
 body {

@@ -27,11 +27,11 @@ sections:
     services:
       - title: Maker Focused Community
         text: BrightBikes is a program of The Maker Effect Foundation, a maker-focused 501(c)(3) nonprofit in Orlando, Florida.
-        icon: fa-gem text-info
+        icon: fa-cogs text-info
         url: 'https://startbootstrap.com/'
       - title: Project Funding
         text: This project is funded in part by Orange County Government through the Arts & Cultural Affairs Program.
-        icon: fa-paper-plane
+        icon: fa-hand-holding-usd
       - title: Tutorials
         text: Looking to build your own and don't know where to start? Watch some of our tutorials.
         icon: fa-laptop-code
