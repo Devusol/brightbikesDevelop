@@ -4,9 +4,9 @@ header:
   title: BRiGHT BiKES
   text: >
     LIGHT UP YOUR COMMUNITY
-  action: # action button is optional
-    label: Find Out More
-    url: '#about'
+  #action: # action button is optional
+  #  label: Find Out More
+  #  url: '#about'
 
 
 sections:

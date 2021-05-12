@@ -10357,6 +10357,59 @@ header.masthead h1 {
     color: rgba(255, 255, 255, 0.75);
 }
 
+
+#bikeSVG{
+    width: 300px;
+    position: relative;
+   // animation: mymove 15s ease-in-out infinite;
+}
+
+#wholeBike{
+    width: 300px;
+    position: relative;
+    animation: mymove 20s ease-in-out infinite;
+}
+
+#frontSpokes{
+animation:wheel 2s infinite linear;
+transform-origin: center;
+transform-box: fill-box; 
+}
+
+#backSpokes{
+    animation:wheel 2s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box; 
+    }
+
+#bikeDiv{
+    bottom: -131px;
+    position: relative;
+}
+@keyframes wheel{
+	from{transform: rotateZ(0deg);
+    }
+    to{transform: rotateZ(360deg);
+    }
+}
+
+
+@keyframes mymove {
+	0% {left: -30%;}
+    50% {left: 50%;}   
+	100% {left: 100%;}
+}
+@keyframes mymove2 {
+	0% {left: 50%;}
+	100% {left: 100%;}
+}
+@keyframes flipGuy {
+	     to {
+             -webkit-transform: scaleX(-1);
+                transform: scaleX(-1);
+            }
+        
+}
 .fa-envelope{
   color: var(--orange) !important;
   cursor: pointer;
