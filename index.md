@@ -104,23 +104,31 @@ sections:
 
   - type: timeline.html
     section_id: timeline
-    title: How-to guides
+    title: How-to
     background_style: bg-dark text-primary
     last_image: assets/img/timeline-end.png
     actions:
       - image: assets/img/portfolio/thumbnails/1.jpg
         url: https://youtube.com/embed/_E--rsD7uEI
         title: >+
-          **BrightBikes Review: Spokelit Disco & Bright Spokes lights**
+          **Build your first Bright Bike!**
         text: >-
-          Easy Bright Light Kits
-          Quick setup for Bright Bike events and lighting your bike for evening and night fun. The two kits covered in this video are the Spokelit Disco and Bright Spokes lights.These Kits are available on Amazon.
-      - image: assets/img/portfolio/thumbnails/2.jpg
-        url: https://youtube.com/embed/R5WS32tsVmU
-        title: >+
-          BrightBikes @ Retro City Cycles 9th Annual Christmas Light Ride
-        text: >-
-          We took the prototype BrightBikes Pixel 1600 and the BrightBikes Neon to the Retro City Cycles 9th Annual Christmas Light Ride. The other riders and spectators loved the bikes and we had non-stop positive comments. We also had some great conversations about how the bikes were built and the BrightBikes program!
+          Quick and easy setup for lighting your bike. 
+          <br />
+          The two kits covered in this video: Spokelit Disco and Bright Spokes.
+          <br />
+          These Kits are available on Amazon.
+
+          <br /><br />
+          <a href="https://youtu.be/_E--rsD7uEI?t=46" target="_blank">0:46:</a> Install overview of the Spokelit Disco
+          
+          <br /><br />
+          <a href="https://youtu.be/_E--rsD7uEI?t=85" target="_blank">1:25:</a> Install overview of the Bright Spokes Lights
+
+          <br /><br />
+          Spokelit Disco: <a href="https://amzn.to/3obxJ9o" target="_blank">https://amzn.to/3obxJ9o</a>
+        
+
 
   - type: contact.html
     section_id: contacts
