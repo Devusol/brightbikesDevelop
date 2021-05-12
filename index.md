@@ -74,15 +74,15 @@ sections:
 
   - type: aside.html
     section_id: aside
-    title: Free Download at Start Bootstrap!
+    title: Join the community on Facebook
     actions:
-      - title: Download Now!
-        url: https://startbootstrap.com/themes/creative/
+      - title: Facebook
+        url: https://www.facebook.com/brightbikesorl
         class: btn-dark
 
   - type: members.html
     section_id: members
-    title: Partners and Affiliates
+    title: Partners
     background_style: bg-info text-white
     members:
       - title: Maker Effects Foundation
@@ -105,24 +105,23 @@ sections:
 
   - type: timeline.html
     section_id: timeline
-    title: Major Achievements!
+    title: How-to guides
     background_style: bg-dark text-primary
     last_image: assets/img/timeline-end.png
     actions:
       - image: assets/img/portfolio/thumbnails/1.jpg
+        url: https://youtu.be/_E--rsD7uEI
         title: >+
-          2017-2018
-          **Humble Beginnings**
+          **BrightBikes Review: Spokelit Disco & Bright Spokes lights**
         text: >-
-          We begun with small group of people willing to work hard and make our
-          teaching skills worth , in front of all others!
+          Easy Bright Light Kits
+          Quick setup for Bright Bike events and lighting your bike for evening and night fun. The two kits covered in this video are the Spokelit Disco and Bright Spokes lights.These Kits are available on Amazon.
       - image: assets/img/portfolio/thumbnails/2.jpg
+        url: https://youtu.be/R5WS32tsVmU
         title: >+
-          November 2019
-          An Coaching started
+          BrightBikes @ Retro City Cycles 9th Annual Christmas Light Ride
         text: >-
-          We started to gather like minded people and started our stategies
-          and future plans to them. As a result , interested people joined us!
+          We took the prototype BrightBikes Pixel 1600 and the BrightBikes Neon to the Retro City Cycles 9th Annual Christmas Light Ride. The other riders and spectators loved the bikes and we had non-stop positive comments. We also had some great conversations about how the bikes were built and the BrightBikes program!
 
   - type: contact.html
     section_id: contacts
