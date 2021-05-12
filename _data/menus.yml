@@ -5,13 +5,12 @@
 header:
 - title: About
   url: /#about
-- title: Services
+- title: Join Us
   url: /#services
-- title: Members
+- title: Partners
   url: /#members
-- title: History
+- title: How-to
   url: /#timeline
 - title: Contacts
   url: /#contacts
-- title: Links
-  url: /links
+

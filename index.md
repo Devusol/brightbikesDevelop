@@ -14,35 +14,29 @@ sections:
     section_id: about
     background_style: bg-primary
     title: Light up your community!
-    text: BrightBikes is a program of The Maker Effect Foundation, a maker-focused 501(c)(3) nonprofit in Orlando, Florida. Check out our tutorials to add LEDs to your bike and get out to share your colors with your neighborhood, or join us for community light parades!
+    text: We are building a fleet of art bikes with more than 1,600 LEDs each! These bikes will display patterns created by local interactive artists and you'll see the bikes popping up at lots of iconic Orlando locations in the coming months. Send us a note to get involved! 
     actions:
-      - title: Get Started!
-        url: '#page-top'
+      - title: Get involved!
+        url: mailto:makers@makerfaireorlando.com
         class: btn-light
 
   - type: services.html
     section_id: services
     #background_style: bg-info
-    title: At Your Service
+    title: Join Us!
     services:
-      - title: Sturdy Templates
-        text: Our templates are updated regularly so they don't break.
-        icon: fa-gem text-info
-        url: https://startbootstrap.com/
-      - title: Ready to Ship
-        text: You can use this theme as is, or you can make changes!
-        icon: fa-paper-plane
-      - title: Up to Date
-        text: We update dependencies to keep things fresh.
+      - title: Maker Focused Community
+        text: BrightBikes is a program of The Maker Effect Foundation, a maker-focused 501(c)(3) nonprofit in Orlando, Florida.
+        icon: fa-cogs text-info
+        url: 'https://startbootstrap.com/'
+      - title: Project Funding
+        text: This project is funded in part by Orange County Government through the Arts & Cultural Affairs Program.
+        icon: fa-hand-holding-usd
+      - title: Tutorials
+        text: Looking to build your own and don't know where to start? Watch some of our tutorials.
         icon: fa-laptop-code
-      - title: Made with Love
-        text: You have to make your websites with love these days!
-        icon: fa-heart
-      - title: Other 1
-        text: Some not-so long text here.
-        icon: fa-heart
-      - title: Other 2
-        text: Some not-so long text here.
+      - title: Explore and Share
+        text: Find different places to ride and be a part of a growing community.
         icon: fa-heart
 
   - type: portfolio.html
@@ -50,112 +44,100 @@ sections:
     #section_id: portfolio
     #background_style: bg-dark
     projects:
-      - title: Project 1
-        text: This is a very short project description.
+      - title: Downtown Orlando
+        text: Lake Eola Park
         # the images are located in:
         # img/portfolio/fullsize
         # img/portfolio/thumbnails
         icon: 1.jpg
         url: '#'
-      - title: Project 2
-        text: This is a very short project description.
+      - title: Downtown Orlando
+        text: Wall Street
         icon: 2.jpg
         url: '#'
-      - title: Project 3
-        text: This is a very short project description.
+      - title: Downtown Orlando
+        text: Lake Eola Park
         icon: 3.jpg
         url: '#'
-      - title: Project 4
-        text: This is a very short project description.
+      - title: Downtown Orlando
+        text: Lake Eola Park
         icon: 4.jpg
         url: '#'
-      - title: Project 5
-        text: This is a very short project description.
+      - title: Downtown Orlando
+        text: Wall Street
         icon: 5.jpg
         url: '#'
-      - title: Project 6
-        text: This is a very short project description.
+      - title: Downtown Orlando
+        text: Wall Street
         icon: 6.jpg
         url: '#'
 
   - type: aside.html
     section_id: aside
-    title: Free Download at Start Bootstrap!
+    title: Join the community on Facebook
     actions:
-      - title: Download Now!
-        url: https://startbootstrap.com/themes/creative/
-        class: btn-light
+      - title: Facebook
+        url: https://www.facebook.com/brightbikesorl
+        class: btn-dark
 
   - type: members.html
     section_id: members
-    title: Our Crew!
+    title: Partners
     background_style: bg-info text-white
     members:
-      - title: Christina M. Aponte
-        text: Singer and Songwriter
-        image: assets/img/members/person1.jpg
-        url: '#'
-      - title: Gary D. Stevens
-        text: Bass guitar.
-        image: assets/img/members/person2.jpg
-        url: '#'
-      - title: Devon J. Fletcher
-        text: Lead guitar.
-        image: assets/img/members/person3.jpg
-        url: '#'
-      - title: Todd E. Anderson
-        text: Drums, percussion.
-        image: assets/img/members/person5.jpg
-        url: '#'
-      - title: Daniel T. Riley
-        text: Musician, songwriter, producer.
-        image: assets/img/members/person6.jpg
-        url: '#'
-      - title: Ella P. Walter
-        text: PR.
-        image: assets/img/members/person7.jpg
-        url: '#'
+      - title: Maker Effects Foundation
+        text: The Maker Effect is the sum of the personal growth, professional success, community development, and continuous innovation that results when makers learn, educate, share, and create together. 
+        image: assets/img/logos/makerEffectFoundationLogo.png
+        url: 'http://www.themakereffect.org/'
+      - title: Maker Faire Orlando
+        text: Maker Faire is the Greatest Show (and Tell) on Earth—a family-friendly festival of invention, creativity and resourcefulness, and a celebration of the Maker movement.
+        image: assets/img/logos/makerFaireOrlandoLogo.png
+        url: 'https://www.makerfaireorlando.com/'
+      - title: Maker FX
+        text: MakerFX Makerspace is a community-driven makerspace with 3,500 sq. ft. of classroom, workshop and community space in South Orlando.
+        image: assets/img/logos/makerFXLogo.png
+        url: 'http://makerfx.org/'
+      - title: Robot Ruckus
+        text: Your favorite robots, destroying each other, for your amusement. 
+        image: assets/img/logos/robotRuckusRoundLogo.png
+        url: 'https://robotruckus.org/'
+
 
   - type: timeline.html
     section_id: timeline
-    title: Major Achievements!
+    title: How-to guides
     background_style: bg-dark text-primary
     last_image: assets/img/timeline-end.png
     actions:
       - image: assets/img/portfolio/thumbnails/1.jpg
+        url: https://youtu.be/_E--rsD7uEI
         title: >+
-          2017-2018
-          **Humble Beginnings**
+          **BrightBikes Review: Spokelit Disco & Bright Spokes lights**
         text: >-
-          We begun with small group of people willing to work hard and make our
-          teaching skills worth , in front of all others!
+          Easy Bright Light Kits
+          Quick setup for Bright Bike events and lighting your bike for evening and night fun. The two kits covered in this video are the Spokelit Disco and Bright Spokes lights.These Kits are available on Amazon.
       - image: assets/img/portfolio/thumbnails/2.jpg
+        url: https://youtu.be/R5WS32tsVmU
         title: >+
-          November 2019
-          An Coaching started
+          BrightBikes @ Retro City Cycles 9th Annual Christmas Light Ride
         text: >-
-          We started to gather like minded people and started our stategies
-          and future plans to them. As a result , interested people joined us!
+          We took the prototype BrightBikes Pixel 1600 and the BrightBikes Neon to the Retro City Cycles 9th Annual Christmas Light Ride. The other riders and spectators loved the bikes and we had non-stop positive comments. We also had some great conversations about how the bikes were built and the BrightBikes program!
 
   - type: contact.html
     section_id: contacts
     title: Let's Get In Touch!
     text: >-
-      Ready to start your next project with us? Give us a call or send us an email
-      and we will get back to you as soon as possible!
+      Light Up Your Community! Check out our tutorials to add LEDs to your bike and get out to share your colors with your neighborhood, or join us for community light parades! 
     actions:
-    - title: +1 (202) 555-014
-      icon: fa-phone
     - title: E-Mail
       icon: fa-envelope
-      url: mailto:contact@yourwebsite.com
-    - title: Twitter
-      icon: fa-twitter
-      icon_type: fab
-      url: '#'
+      url: mailto:makers@makerfaireorlando.com
     - title: Facebook
-      icon: fa-facebook
+      icon: fa-facebook 
       icon_type: fab
-      url: '#'
+      url: 'https://www.facebook.com/brightbikesorl'
+
+  
+
 
 ---
