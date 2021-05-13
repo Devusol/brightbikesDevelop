@@ -10406,8 +10406,10 @@ transform-box: fill-box;
 
 
 #videoHead {
-    max-width: 420px;
+    max-width: 525px;
     margin: 0px auto;
+    min-width:0px !important;
+    min-height: 0px !important;
   }
   
   #videoHead > #videoDiv {
