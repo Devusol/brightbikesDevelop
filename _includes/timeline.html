@@ -9,10 +9,10 @@
     <div class="row">
         {% for action in section.actions %}
         
-        <div class="col-12 col-sm-12 " style="display: block; margin: 0 25%;">
-          <iframe
+        <div id="videoHead" class="col-12 col-sm-12 ">
+        <div id="videoDiv">
+          <iframe id="videoFrame"
             src="{{ action.url}}"
-            height="315px" width="50%"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -20,6 +20,7 @@
           >
           </iframe>
           <br /> <br />
+          </div>
         </div>
 
         <div style="display: block; margin: 0 auto; width: 60%; text-align: center;">
