@@ -73,14 +73,6 @@ section {
     display: block;
 }
 
-#aside{
-    background: radial-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../img/backgrounds/orlando.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-}
-
 .blackLineDiv{
     border:black;
     border-top-width:90vh;
@@ -10371,26 +10363,22 @@ header.masthead h1 {
 #wholeBike{
     width: 300px;
     position: relative;
-    animation: mymove 20s ease-in-out infinite;
+    animation: moveBike 20s ease-in-out infinite;
 }
 
-#frontSpokes{
-animation:wheel 2s infinite linear;
+#frontSpokes, #backSpokes{
+animation:wheelSpin 2s infinite linear;
 transform-origin: center;
 transform-box: fill-box; 
 }
 
-#backSpokes{
-    animation:wheel 2s infinite linear;
-    transform-origin: center;
-    transform-box: fill-box; 
-    }
-
 #bikeDiv{
     bottom: -131px;
     position: relative;
+    overflow: hidden;
 }
-@keyframes wheel{
+
+@keyframes wheelSpin{
 	from{transform: rotateZ(0deg);
     }
     to{transform: rotateZ(360deg);
@@ -10398,22 +10386,13 @@ transform-box: fill-box;
 }
 
 
-@keyframes mymove {
-	0% {left: -30%;}
-    50% {left: 50%;}   
-	100% {left: 100%;}
+@keyframes moveBike {
+	0% {transform: translateX(-10vw);}
+    50% {transform: translateX(44vw);}   
+	100% {transform: translateX(100vw);}
 }
-@keyframes mymove2 {
-	0% {left: 50%;}
-	100% {left: 100%;}
-}
-@keyframes flipGuy {
-	     to {
-             -webkit-transform: scaleX(-1);
-                transform: scaleX(-1);
-            }
-        
-}
+
+
 .fa-envelope{
   color: var(--orange) !important;
   cursor: pointer;
